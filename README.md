@@ -25,3 +25,30 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Angular Overview
+
+ci-dessous la liste des fichiers que l'on retrouve dans un projet angular
+le premier dossier e2e : pour les tests end to end, tests automatisé qui simulent un vrai user
+
+En dessous node modules : toutes les les librairies tiers
+on ne doit pas le déployer dans le serveur
+
+app : les modules et les composants
+
+assets : les icones, les images, etc
+
+environnment : fichier de configuration, dev production etc
+
+---
+
+quelle est la difference entre angularJS et angular ?
+
+angularJS premiere version : tres complexe
+
+angular2 : nouvelle version avec du TS, totalement different de angularJS
+angular est maintenant plus clean
+
+Pour creer un nouveau composant utiliser la commande ng g c NomDuComposant
+
+Les directives permettent l'insertion du code ts dans le template html
